@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2023-10-20
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Completed Graduate Research Internship at [NASA's Jet Propulsion Laboratory](https://www.jpl.nasa.gov).

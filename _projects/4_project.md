@@ -1,80 +1,55 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Autonomous Robotic Grasping
+description: Exploring vision-based robotic grasping for effective object manipulation in static and dynamic environments.
+img: assets/img/publication_preview/arg.png
+importance: 4
+category: Undergraduate Thesis Project
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Autonomous Robotic Grasping (ARG) is key to attaining the promise of intelligent robotics. The primary premise underlying vision-based ARG is the capacity of a robot to “perceive" its surroundings using vision sensors to constructively interact with various objects to accomplish a given task of interest. However, the real world consists of many highly variable aspects. It is neither tractable nor feasible for a robot to accurately represent its surroundings, the things in it, and the complex interactions among them. Therefore, learning is crucial in such intelligent autonomous systems to acquire the ability to perform skilled manipulation tasks. Effective ARG systems have many applications in various domains. They can be deployed in industries, spacecraft, restaurants, and homes to perform or assist human experts in performing versatile and repetitive manipulation tasks. In this project, the following two challenging ARG tasks (Objectives) are considered which are almost ubiquitously found problems that an intelligent robotic arm can automate:
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+- <u>Task I : Grasping Various Objects in Diverse Environments</u> 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/task-1.png" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mt-md-0 center-vertical">
+        This task aims to use Deep Reinforcement Learning techniques to make a robotic arm intelligently grasp novel objects, i.e. objects whose 3D model is not known apriori, in novel random scenes.
     </div>
 </div>
+
+- <u>Task II : Dynamic Grasping of Moving Objects</u> 
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0 center-vertical">
+        This task aims to use Deep Learning and Inverse Kinematics based Motion Planning techniques to help a robotic arm in learning how to grasp dynamic items of interest, whose 3D model is known apriori.
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/task-2.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+In addition, the basic steps and tasks necessary for performing complex ARG tasks in a “real” robotic setup are taken into account as a part of the problem statement of this work.
+
+
+The detailed report (Undergraduate Thesis) of the project can be found <a href="{{ site.url }}{{ site.baseurl }}/assets/pdf/arg_final_report.pdf" target="_blank" rel="noreferrer noopener">here</a> and the final project presentation can be found <a href="{{ site.url }}{{ site.baseurl }}/assets/pdf/arg_ppt.pdf" target="_blank" rel="noreferrer noopener">here</a>.
+
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Video Demo of the Project
 </div>
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+     <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/arg_final.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     </div>
 </div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+This project was awarded Innovative Student Project Award 2022 by Indian National Academy of Engineering (INAE) and the corresponding presentation is as follows:
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+<embed src="{{ site.url }}{{ site.baseurl }}/assets/pdf/INAE_FYP_2022.pdf" width="100%" height="800px" type='application/pdf'>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
-{% raw %}
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
 
-{% endraw %}
+

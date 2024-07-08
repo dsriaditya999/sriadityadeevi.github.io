@@ -2,26 +2,23 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: 
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic_sriadi_enhanced.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <center> U R Rao Satellite Centre</center>
+    <center>Bengaluru, Karnataka</center> 
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-This is some random text. This should change frontend.
+I am a Scientist in the Mission Simulation Group (MSG) at [U.R. Rao Satellite Centre, Indian Space Research Organization (ISRO)](https://www.ursc.gov.in). My work involves tackling diverse AI and robotics research challenges in aerospace systems. Currently, I am engaged in several notable projects, including pose estimation and tracking in uncooperative spacecraft rendezvous operations using monocular data, estimating the relative pose of space resident objects with LIDAR point cloud data, developing autonomous navigation algorithms for rovers, and creating vision-based solutions for the autonomous landing of unmanned aerial vehicles (UAVs).
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Before joining ISRO, I graduated from [Caltech](https://www.caltech.edu) with a Masters degree in Electrical Engineering, having earned the prestigious and fully funded Dr. Satish Dhawan Fellowship from the Department of Space, Government of India. At Caltech, I conducted research to develop efficacious multimodal deep sensor fusion methods for object detection in the [Autonomous Robotics and Control Lab (ARCL)](http://aerospacerobotics.caltech.edu) led by Prof. [Soon-Jo Chung](https://scholar.google.com/citations?user=-ClLU3EAAAAJ&hl=en). Following my time at Caltech, I had the opportunity to intern at the [Jet Propulsion Laboratory (JPL)](https://www.jpl.nasa.gov) in the Optical Communication Systems group. There, I collaborated with Dr. Sabino Piazzolla and spearheaded the development of short-term forecasting techniques to predict key atmospheric parameters helpful in characterizing the optical channel.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+In a more general sense, I am interested in Machine Learning, Robotics and Computer Vision. I am particularly fascinated by the intersection of these fields and their applications in aerospace systems. I am always on the lookout for exciting research opportunities and collaborations, so feel free to reach out if you have any ideas or projects in mind.

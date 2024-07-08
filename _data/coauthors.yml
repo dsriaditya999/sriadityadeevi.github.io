@@ -32,3 +32,15 @@
 "planck":
   - firstname: ["Max"]
     url: https://en.wikipedia.org/wiki/Max_Planck
+
+"gan":
+  - firstname: ["Lu"]
+    url: https://scholar.google.com/citations?hl=en&user=mVY8wE8AAAAJ
+
+"chung":
+  - firstname: ["Soon-Jo"]
+    url: https://scholar.google.com/citations?hl=en&user=-ClLU3EAAAAJ
+
+"mishra":
+  - firstname: ["Deepak"]
+    url: https://scholar.google.com/citations?hl=en&user=N-bWm_wAAAAJ&view_op=list_works&sortby=pubdate

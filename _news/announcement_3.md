@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2024-02-29
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Presented our paper, [RGB-X Object Detection via Scene-Specific Fusion Modules](https://openaccess.thecvf.com/content/WACV2024/html/Deevi_RGB-X_Object_Detection_via_Scene-Specific_Fusion_Modules_WACV_2024_paper.html), in the [AGI Leap Summit](https://superagi.com/agi-leap-summit/) organized by [SuperAGI](https://superagi.com).

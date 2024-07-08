@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 9
-description: another project with an image 🎉
-img: assets/img/6.jpg
-importance: 4
-category: fun
+title: ECG Beat Classification
+description: ECG analysis with a deep learning approach for efficient denoising and beat-wise classification, enhancing cardiovascular diagnostics
+img: assets/img/publication_preview/random_ecg.png
+redirect: https://link.springer.com/article/10.1007/s13534-021-00184-x
+importance: 9
+category: Undergraduate Projects
 ---
 
 Every project has a beautiful feature showcase page.
